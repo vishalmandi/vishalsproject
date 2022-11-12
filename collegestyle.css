@@ -1,0 +1,263 @@
+body {
+    margin: 0 auto;
+    height:800px;
+    background-color:white;
+}
+
+.top{
+    margin:0 auto;
+}
+
+.top .row {
+    background-color: #2D2EA4;
+    text-align: center;
+    height: 40px;
+}
+
+.top .row p {
+    color: white;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.top .row a {
+    color: white;
+}
+
+#second {
+    background: #090914 url('night.webp') center top fixed no-repeat;
+    height: 800px;
+    width: 100%;
+    color: white;
+    margin:0 auto;
+}
+
+#image {
+    margin: -30px 0px 0px 70px;
+    float:left;
+}
+
+#second img:url('night.webp') {
+    width: 100%;
+    height: 100%;
+}
+
+#second .row h2 {
+    margin-top: -20px;
+    margin-left: 45px;
+    color:white;
+}
+
+#second .row h5{
+    color:white;
+    margin-right: 20px;
+    font-size:20px !important;
+}
+
+.kline {
+    width: 58%;
+    height: 1px;
+    margin: 10px 0;
+    background: linear-gradient(to right, transparent, white, transparent);
+}
+
+#menuarea {
+    width: 1258px;
+    height: 40px;
+    background-color: none;
+    margin-top: 20px;
+    margin-bottom:40px;
+    margin-left: 50px;
+    font-size: 17px;
+    position: sticky;
+    top: 0px;
+}
+
+#menuarea ul {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+#menuarea ul li {
+    float: left;
+}
+
+#menuarea ul li a:link,
+#menuarea ul li a:visited {
+    color: white;
+    background: transparent;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-shadow: 3px;
+    display: block;
+    border-right: solid 5px transparent;
+}
+
+#menuarea ul li a:hover {
+    color: white;
+    background: #2D2EA4;
+    box-shadow: 2px 2px 2px black;
+}
+
+#menuarea ul li:last-child a:link,
+#menuarea ul li:last-child a:visited {
+    border: none;
+}
+
+#quotearea {
+    width: 1100px;
+    height: 200px;
+    background-color: none;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: white;
+    float: left;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+}
+
+#quotearea h2 {
+    font-size: 45px;
+    color:white;
+}
+
+#courseheadarea {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #2D2EA4;
+    color: white;
+    margin: 10px 0px 0px 570px;
+    padding-top: 0px;
+}
+
+#courseheadarea p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#boxarea {
+    width: 1300px;
+    height: 220px;
+    background-color: transparent;
+    float: left;
+    margin: 10px 0px 0px 25px;
+}
+
+.box0area {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box0area:hover {
+    color: whitesmoke;
+}
+
+.box1 {
+    background-color: whitesmoke;
+    margin-left: 120px;
+    font-weight: 600;
+    text-align: center;
+    color: #2D2EA4;
+}
+
+.box1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: 20px 10px 10px 10px;
+}
+
+.box1:hover {
+    background-color: #2D2EA4;
+    transform: translate(0, -10px);
+    transition-duration: 0.5s;
+    box-shadow: 3px 3px 3px black;
+    color: white;
+}
+
+.box2 {
+    background-color: whitesmoke;
+    font-weight: 600;
+    text-align: center;
+    color: #2D2EA4;
+}
+
+.box2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: 20px 10px 10px 20px;
+}
+
+.box2:hover {
+    background-color: #2D2EA4;
+    transform: translate(0, -10px);
+    transition-duration: 0.5s;
+    box-shadow: 3px 3px 3px black;
+}
+
+.box3 {
+    background-color: whitesmoke;
+    font-weight: 600;
+    text-align: center;
+    color: #2D2EA4;
+}
+
+.box3 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: 20px 10px 10px 10px;
+}
+
+.box3:hover {
+    background-color: #2D2EA4;
+    transform: translate(0, -10px);
+    transition-duration: 0.5s;
+    box-shadow: 3px 3px 3px black;
+}
+
+.box4 {
+    background-color: whitesmoke;
+    font-weight: 600;
+    text-align: center;
+    color: #2D2EA4;
+}
+
+.box4 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: 20px 10px 10px 10px;
+}
+
+.box4:hover {
+    background-color: #2D2EA4;
+    transform: translate(0, -10px);
+    transition-duration: 0.5s;
+    box-shadow: 3px 3px 3px black;
+}
+
+#footer{
+    background: rgb(33, 35, 49) !important;
+    height:400px;
+}
+
+video{
+    margin-top:110px;
+    border:solid 2px #2D2EA4;
+    height:180px;
+}
+
+.maxwidth500 col-md-4 pl-0 img{
+    border:solid 1px #2D2EA4;
+}
+  
+
+
